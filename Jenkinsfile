@@ -6,6 +6,7 @@ pipeline{
     stage('prep'){
      steps{
        echo "hello wolrd"
+         git branch: main "url"
      }
 }
 }
